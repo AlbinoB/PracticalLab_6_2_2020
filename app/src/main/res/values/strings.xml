@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PracticalLab_6_2_2020</string>
+
+    <string-array name="UG">
+        <item>BSc</item>
+        <item>BBA</item>
+        <item>BCA</item>
+    </string-array>
+    <string-array name="PG">
+        <item>BDA</item>
+        <item>MSC</item>
+        <item>MCA</item>
+    </string-array>
+</resources>
