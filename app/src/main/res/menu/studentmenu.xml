@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="name"
+        android:id="@+id/name"
+        >
+
+    </item>
+    <item
+        android:title="Rollno"
+        android:id="@+id/rollno"
+        >
+
+    </item>
+    <item
+        android:title="Address"
+        android:id="@+id/address"
+        >
+
+    </item>
+</menu>

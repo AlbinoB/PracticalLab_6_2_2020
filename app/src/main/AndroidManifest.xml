@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ExplicitIndentSecond"></activity>
+        <activity android:name=".ContextMenuJava"></activity>
+        <activity android:name=".ExplicitIndentSecond" />
         <activity android:name=".ExplicitIndent" />
         <activity android:name=".CheckboxActivity">
             <intent-filter>
