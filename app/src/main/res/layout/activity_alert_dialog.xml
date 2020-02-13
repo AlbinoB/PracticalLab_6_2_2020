@@ -6,4 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".AlertDialog">
 
+    <Button
+        android:id="@+id/buttonAlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="259dp"
+        android:onClick="btnClicked"
+        android:text="Alert Dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
