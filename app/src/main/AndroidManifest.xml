@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AlertDialog"></activity>
+        <activity android:name=".SeekBarActivity"></activity>
+        <activity android:name=".AlertDialog" />
         <activity android:name=".TimePicker" />
         <activity android:name=".ContextMenuJava" />
         <activity android:name=".ExplicitIndentSecond" />
