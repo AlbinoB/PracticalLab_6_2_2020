@@ -24,7 +24,7 @@ public class CheckboxActivity extends AppCompatActivity {
         c3=(CheckBox)findViewById(R.id.checkBox3);
 
         t1=(TextView) findViewById(R.id.textView);
-        Intent intent=new Intent(CheckboxActivity.this,DatePicker.class);
+        Intent intent=new Intent(CheckboxActivity.this,Change_Background_Image_Activity.class);
         startActivity(intent);
 
 

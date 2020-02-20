@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SeekBarActivity"></activity>
+        <activity android:name=".Change_Background_Image_Activity"></activity>
+        <activity android:name=".ProgressBarActivity" />
+        <activity android:name=".SeekBarActivity" />
         <activity android:name=".AlertDialog" />
         <activity android:name=".TimePicker" />
         <activity android:name=".ContextMenuJava" />
