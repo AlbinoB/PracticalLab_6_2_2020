@@ -3,14 +3,13 @@
     package="com.mitwpu.practicallab_6_2_2020">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-    <uses-permission android:name="android.permission.BLUETOOTH"/>
-
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -19,17 +18,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ReadWriteActivity">
+
+
+        </activity>
         <activity android:name=".Bluetooth_WiFi_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".VideoPlayer">
-
-        </activity>
+        <activity android:name=".VideoPlayer"></activity>
         <activity android:name=".AudioPlayer" />
         <activity android:name=".SaveStudentDetailsInDataBase" />
         <activity android:name=".Change_Background_Image_Activity" />
@@ -40,7 +40,7 @@
         <activity android:name=".ContextMenuJava" />
         <activity android:name=".ExplicitIndentSecond" />
         <activity android:name=".ExplicitIndent" />
-        <activity android:name=".CheckboxActivity"></activity>
+        <activity android:name=".CheckboxActivity" />
         <activity android:name=".DatePicker" />
         <activity android:name=".StudentRegisteration" />
         <activity android:name=".ImplicitIndent" />
